@@ -3,7 +3,7 @@
 #
 # Abstract:   Pass Server reference implementation
 #
-# Version:    1.0
+# Version:    1.1.0
 #
 # Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple Inc. ("Apple")
 #             in consideration of your agreement to the following terms, and your use,
@@ -48,14 +48,14 @@
 
 Gem::Specification.new do |s|
   s.name        = 'sign_pass'
-  s.version     = '1.0.1'
-  s.date        = '2015-08-10'
+  s.version     = '1.1.0'
+  s.date        = '2017-03-17'
   s.summary     = "Packages and signs passes."
   s.description = "A ruby implementation of the pass signing and packaging utility."
-  s.authors     = ["Apple"]
+  s.authors     = ["Apple", "wu-wei@cyber.co.jp"]
   s.files       = ["lib/sign_pass.rb"]
   s.homepage    = "http://www.apple.com"
   s.email       = "developer@apple.com"
   s.executables << "rsign_pass"
-  s.add_dependency('rubyzip', '>= 0.9.5') 
+  s.add_dependency('rubyzip', '>= 0.9.5')
 end

@@ -2,3 +2,4 @@
 *.p12
 *.pem
 *.sqlite3
+*.gem
